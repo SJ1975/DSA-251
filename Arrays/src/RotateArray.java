@@ -24,7 +24,7 @@ public class RotateArray {
         System.out.print("Enter the number of elements in the ArrayList: ");
         int n = sc.nextInt();
         ArrayList<Integer> arr = new ArrayList<>();
-        System.out.println("Enter the elements of the ArrayList:");
+        System.out.print("Enter the elements of the ArrayList:" + " ");
         for (int i = 0; i < n; i++) {
             arr.add(sc.nextInt());
         }
